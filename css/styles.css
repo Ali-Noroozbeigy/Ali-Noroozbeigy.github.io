@@ -1,21 +1,26 @@
 body {
-  color: #967E76;
+  color: #0F3460;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 h1 {
-  color: #B7C4CF;
+  color: #5F6F94;
   font-size: 3rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
-  color: #B7C4CF;
+  color: #E94560;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
   font-weight: normal;
   padding-bottom: 10px;
+}
+
+h3 {
+  color: #533483;
+  font-family: 'Montserrat', sans-serif;
 }
