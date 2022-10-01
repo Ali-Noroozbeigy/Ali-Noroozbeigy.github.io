@@ -35,3 +35,14 @@ hr {
   width: 4%;
   margin: 100px auto;
 }
+
+a{
+  color: #5F6F94;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FEF5AC;
+}
