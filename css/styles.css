@@ -24,3 +24,7 @@ h3 {
   color: #533483;
   font-family: 'Montserrat', sans-serif;
 }
+
+p {
+  line-height: 2;
+}
