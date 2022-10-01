@@ -28,3 +28,10 @@ h3 {
 p {
   line-height: 2;
 }
+
+hr {
+  border: dotted #97D2EC 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
