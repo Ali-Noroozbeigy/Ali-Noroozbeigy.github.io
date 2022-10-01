@@ -71,3 +71,14 @@ a:hover {
   padding: 50px 0 20px;
 }
 
+.ac-exp {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: right;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
