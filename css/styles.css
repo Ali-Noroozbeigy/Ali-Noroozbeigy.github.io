@@ -94,3 +94,45 @@ a:hover {
   float: left;
   margin-right: 30px;
 }
+
+.python-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.linux-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.git-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.other-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.english-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.office-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.latex-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
