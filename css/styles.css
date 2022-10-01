@@ -58,3 +58,11 @@ a:hover {
   font-size: 2.3rem;
   padding-top: 15px;
 }
+
+.info-part {
+  background-color: #D7C0AE;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
