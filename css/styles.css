@@ -48,8 +48,13 @@ a:hover {
 }
 
 .welcoming-part {
-  background-color: #E4F9F5;
+  background-color: #EEE3CB;
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.my-name {
+  font-size: 2.3rem;
+  padding-top: 15px;
 }
