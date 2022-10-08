@@ -87,13 +87,13 @@ a:hover {
 }
 
 .ai-img {
-  width: 25%;
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
 
 .clab-img {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
@@ -105,19 +105,19 @@ a:hover {
 }
 
 .linux-img {
-  width: 25%;
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
 
 .git-img {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
 
 .other-img {
-  width: 25%;
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
@@ -129,13 +129,13 @@ a:hover {
 }
 
 .office-img {
-  width: 25%;
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
 
 .latex-img {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
