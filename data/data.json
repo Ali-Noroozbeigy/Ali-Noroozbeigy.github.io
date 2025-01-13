@@ -1,0 +1,118 @@
+{
+  "intro": "Hi👋. I’m Ali, a master’s student in Computer Engineering with a focus on Computer Systems' Architecture at Amirkabir University of Technology (Tehran Polytechnic). With strong programming expertise, I am passionate about designing scalable computer systems that are not limited to software but also encompass hardware, artificial intelligence, and networking. This multidisciplinary approach allows me to tackle challenges creatively and effectively.",
+  "education": [
+    {
+      "title": "M.Sc. in Computer Engineering, Computer Systems' Architecture",
+      "institute": "Amirkabir University of Technology",
+      "gpa": "-",
+      "year": "1403-On Going (2024-On Going)",
+      "description": "Accepted as Elite Student without exam. Specializing in IoT"
+    },
+    {
+      "title": "B.Sc. in Computer Engineering",
+      "institute": "Amirkabir University of Technology",
+      "gpa": "18.39/20.0",
+      "year": "1399-1403 (2020-2024)",
+      "description": "Thesis: Design and Implementation of Persian ID Card Detection system based on browser. The software was developed for Tosan company. Also regarded as Elite Student"
+    },
+    {
+      "title": "High School Diploma, Mathematics and Physics",
+      "institute": "Allameh Helli High School",
+      "gpa": "19.5/20.0",
+      "year": "1393-1399 (2014-2020)",
+      "description": "Ranked 78th (Regional) and 254th (National) In National University Entrance Exam, year 1399"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Ava Semiconductor",
+      "role": "Software Engineer",
+      "year_from": "2024",
+      "year_to": "On Going",
+      "description": "Working on design of IoT Platform.",
+      "link": "https://avasemi.com"
+    },
+    {
+      "company": "Houshmand Sazan Bita",
+      "role": "Software Engineer",
+      "year_from": "2023",
+      "year_to": "On Going",
+      "description": "Working on design and implementation of persian License Plate Recognition (LPR) system for access control purposes. employing YOLOv7, Flask, MongoDB, Docker. The LPR system is now being used at multiple governmental and private companies",
+      "link": "https://hsbco.ir"
+    },
+    {
+      "company": "Amirkabir University of Technology",
+      "role": "Teaching Assistant",
+      "year_from": "2022",
+      "year_to": "2024",
+      "description": "Teaching Assistant of Courses: AI Basics and Application under supervision of Dr. Mahdi Javanmardi, Operating Systems under supervision of Dr. S.Ahmad Javadi",
+      "link": "https://hsbco.ir"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Python",
+      "level": 4
+    },
+    {
+      "title": "Go",
+      "level": 3
+    },
+    {
+      "title": "Java",
+      "level": 3
+    },
+    {
+      "title": "C",
+      "level": 3
+    },
+    {
+      "title": "Git",
+      "level": 4
+    },
+    {
+      "title": "Linux",
+      "level": 4
+    },
+    {
+      "title": "English",
+      "level": 4
+    },
+    {
+      "title": "Docker & Kubernetes",
+      "level": 3
+    },
+    {
+      "title": "Javascript",
+      "level": 3
+    },
+    {
+      "title": "HTML",
+      "level": 3
+    },
+    {
+      "title": "CSS",
+      "level": 3
+    }
+  ],
+  "contact": [
+    {
+      "type": "Email",
+      "icon": "fas fa-envelope",
+      "link": "mailto:ali.noroozbeigy@gmail.com",
+      "value": "Email"
+    },
+    {
+      "type": "LinkedIn",
+      "icon": "fab fa-linkedin",
+      "link": "https://linkedin.com/in/ali-noroozbeigy",
+      "value": "LinkedIn"
+    },
+    {
+      "type": "GitHub",
+      "icon": "fab fa-github",
+      "link": "https://github.com/Ali-Noroozbeigy",
+      "value": "GitHub"
+    }
+  ]
+}

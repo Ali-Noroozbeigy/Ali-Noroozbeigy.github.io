@@ -1,151 +1,133 @@
+/* Reset some basic styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Flexbox to make the wrapper grow to full height and push the footer down */
 body {
-  color: #0F3460;
-  margin: 0;
-  text-align: center;
-  font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least full screen height */
+}
+
+.wrapper {
+    flex: 1; /* This will take up remaining space, pushing the footer down */
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling only if content overflows */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    width: 100%; /* Ensure main container takes full width */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Header styles */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%; /* Ensure header takes the full width of the page */
+    box-sizing: border-box;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+/* Card styles */
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0; /* Space between cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure card takes up the full width of the container */
+    max-width: 600px; /* Limit the maximum width of the card */
+    box-sizing: border-box; /* Ensure padding is included in width */
+    overflow: hidden; /* Ensure content does not overflow */
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    width: 100%; /* Ensure section takes full width */
+    box-sizing: border-box; /* Include padding in width */
 }
 
 h1 {
-  color: #5F6F94;
-  font-size: 3rem;
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-}
-
-h2 {
-  color: #E94560;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
+    color: var(--secondary-color);
 }
 
 h3 {
-  color: #533483;
-  font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color)
 }
 
-p {
-  line-height: 2;
-  padding-top: 10px;
-  padding-right: 50px;
-  padding-left: 50px;
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
 }
 
-hr {
-  border: dotted #25316D 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
+img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
 
-a{
-  color: #5F6F94;
-  font-family: 'Montserrat', sans-serif;
-  margin: 10px 20px;
-  text-decoration: none;
+/* Footer styles */
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%; /* Ensure footer takes the full width */
+    box-sizing: border-box; /* Include padding in width */
 }
 
-a:hover {
-  color: #FEF5AC;
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
 }
 
-.my-name {
-  background-color: #EEE3CB;
-  position: relative;
-  padding-top: 100px;
-  padding-bottom: 100px;
+.cv-button:hover {
+    background-color: #cc7a00; /* Darker color on hover */
 }
 
-.uinfo {
-  font-size: 2.3rem;
-  padding-top: 15px;
-}
-
-.info-part {
-  background-color: #D7C0AE;
-  position: relative;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
-.contact-part {
-  background-color: #B7C4CF;
-  padding: 50px 0 20px;
-}
-
-.ac-exp {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: right;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-
-.ai-img {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-}
-
-.os-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.clab-img {
-  width: 20%;
-  float: right;
-  margin-right: 30px;
-}
-
-.python-img {
-  width: 30%;
-  float: left;
-  margin-right: 30px;
-}
-
-.linux-img {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-}
-
-.git-img {
-  width: 20%;
-  float: left;
-  margin-right: 30px;
-}
-
-.other-img {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-}
-
-.english-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.office-img {
-  width: 20%;
-  float: right;
-  margin-left: 30px;
-}
-
-.latex-img {
-  width: 20%;
-  float: left;
-  margin-right: 30px;
-}
-
-.ac-explain {
-  text-align: center;
+/* Theme variables */
+:root {
+    --primary-color: #333;
+    --secondary-color: #ff9900;
+    --background-color: #f4f4f4;
+    --text-color: #333;
 }
